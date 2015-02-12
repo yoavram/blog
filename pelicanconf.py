@@ -8,7 +8,7 @@ TAGLINE = "Evolution. Mathematics. Programming. Science. Lakers."
 AUTHOR_BIO = "PhD Student in Tel-Aviv University"
 
 
-SITEURL = 'http://blog.yoavram.com'
+SITEURL = ''
 ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}.html'
