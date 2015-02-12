@@ -12,7 +12,7 @@ The hypothesis the paper deals with is:
 
 > *The existence of genetic exchanges could modify the dynamics of adaptation and limits the success of mutator alleles[^mutators]*.
 
-It is stated that previous models [@Leigh1973; @Johnson1999] have considered mutators in a sexual population, 
+It is stated that previous models [@Leigh1973; @Johnson1999a] have considered mutators in a sexual population, 
 but didn't consider the case of adaptation with **multiple beneficial mutations** - 
 which can involve different _Hill-Robertosn effects_ [@Hill1966].
 
@@ -234,7 +234,7 @@ This can be resolved by **transient hypermutation**:
 > and rapid recovery of low mutation rate once adaptation is achieved.
 
 This view was also proposed by Ninio [-@Ninio1991] and expanded in a review from the same lab 
-with the attractive title *The Rise and Fall of Mutator Bacteria* [@Giraud2001].
+with the attractive title *The Rise and Fall of Mutator Bacteria* [@Giraud2001a].
 
 I'm not sure if and how these results would change if a weaker mutator (10-fold mutation rate increase?) was used instead of the strong mutator (100-fold).
 For example, a paper from the same lab [@Taddei1997] 

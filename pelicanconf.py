@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Yoav Ram'
 SITENAME = u'Yoav Ram | Blog'
-SITESUBTITLE = "Math, Science, Biology and the Mutation-Selection Balance"
-AUTHOR_BIO = "PhD Student in Tel-Aviv University.\nEvolution. Mathematics. Programming. Science. Lakers."
+TAGLINE = "Math, Science, Biology & the Mutation-Selection Balance"
+AUTHOR_BIO = "PhD Student in Tel-Aviv University.\n\nEvolution. Mathematics. Programming. Science. Lakers."
 
 
 SITEURL = ''
@@ -17,18 +17,17 @@ DRAFT_URL = 'drafts/{slug}.html'
 DRAFT_SAVE_AS = 'drafts/{slug}.html'
 CATEGORY_URL = 'category/{slug}.html'
 CATEGORY_SAVE_AS = 'category/{slug}.html'
-THEME = "svbtle"
+THEME = "mysvbtle"
 PATH = 'content'
 
 TIMEZONE = 'Asia/Jerusalem'
 
 DEFAULT_LANG = u'en'
 
-#GITHUB_URL
+GITHUB_URL = "https://github.com/yoavram/blog"
 #GOOGLE_ANALYTICS
 #DISQUS_SITENAME
 TWITTER_USERNAME = "yoavram"
-#CSS_FILE 
 # Feed generation is usually not desired when developing
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
@@ -38,7 +37,7 @@ AUTHOR_FEED_RSS = None
 FEED_DOMAIN = SITEURL
 
 # Blogroll
-LINKS = (('Home', '/'),
+LINKS = (('Blog', '/'),
 		 ('CV', 'http://www.yoavram.com/'),
 		 ('Scholar', 'http://scholar.google.com/citations?user=RIFmJvYAAAAJ'),
 		 ('Twitter', 'http://twitter.com/yoavram'),
@@ -56,9 +55,8 @@ DEFAULT_PAGINATION = 10
 TYPOGRIFY = True
 LICENSE = "CC-BY-SA 3.0"
 
-PLUGIN_PATHS = ['..\\pelican-plugins']
-PLUGINS = ["render_math", "global_license", "representative_image", "share_post", "simple_footnotes"]
-
-
+PLUGIN_PATHS = ['..\\pelican-plugins'] #"pandoc_reader",
+PLUGINS = ["pandoc_reader", "global_license", "representative_image", "share_post", "simple_footnotes"]
+PANDOC_ARGS = ['--mathjax','--smart','--bibliography=blog.bib']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

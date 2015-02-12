@@ -18,12 +18,6 @@ They start with a summary of the results of @Agrawal2002, who did an infinite po
 * Finite population size - drift, mutational supply?
 * non (log)additive fintess - dominance and epistasis
 
-### Difference from previous Muller's Ratchet-Mutator model
-
-Specifically, @Soderberg2011:
-
-* In this work, every mutation is a mutator
-
 ## Model
 
 They used **individual-based simulations** with *birth*, *selection*, *mating* and *death*. The population size is *finite* and *constant*, generations are *non-overlapping generations* and there are *2,000 loci*. The population is mutation-free at the beginning.

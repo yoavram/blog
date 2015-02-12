@@ -16,8 +16,8 @@ This is a short summary of [Sniegowski and Raynes [-@Sniegowski2013]](http://www
 
 # References
 
-[^1]: The reduction principle [@Liberman1986]
-[^2]: Second-order selection [@Taddei1997; @Sniegowski1997]
+[^1]: The reduction principle [@Liberman1986a]
+[^2]: Second-order selection [@Taddei1997; @Sniegowski1997a]
 [^3]: However, anti-mutators do exist [@Loh2010], so it seems that the mutation rate is not at its lower physio-chemical level
 [^4]: The cost of fidelity argument [@Dawson1998]
 [^5]: AFAIK, this cost was mainly shown in viruses so far [@Furio2005], but a recent study did show some direct advantage of mutators which do not depend on replication fidelity *per se* [@Torres-Barcelo2013]
