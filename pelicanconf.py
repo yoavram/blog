@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Yoav Ram'
 SITENAME = u'Yoav Ram | Blog'
-TAGLINE = "Math, Science, Biology & the Mutation-Selection Balance"
-AUTHOR_BIO = "PhD Student in Tel-Aviv University.\n\nEvolution. Mathematics. Programming. Science. Lakers."
+TAGLINE = "Evolution. Mathematics. Programming. Science. Lakers."
+AUTHOR_BIO = "PhD Student in Tel-Aviv University"
 
 
-SITEURL = ''
+SITEURL = 'http://blog.yoavram.com'
 ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}.html'
@@ -23,6 +23,7 @@ PATH = 'content'
 TIMEZONE = 'Asia/Jerusalem'
 
 DEFAULT_LANG = u'en'
+LOCALE = u'he_IL'
 
 GITHUB_URL = "https://github.com/yoavram/blog"
 #GOOGLE_ANALYTICS
@@ -37,14 +38,14 @@ AUTHOR_FEED_RSS = None
 FEED_DOMAIN = SITEURL
 
 # Blogroll
-LINKS = (('Blog', '/'),
+LINKS = (#('Blog', '/'),
 		 ('CV', 'http://www.yoavram.com/'),
 		 ('Scholar', 'http://scholar.google.com/citations?user=RIFmJvYAAAAJ'),
 		 ('Twitter', 'http://twitter.com/yoavram'),
-	 	  ('Github', 'http://github.com/yoavram'),
-	 	  ('Linkedin', 'http://www.linkedin.com/in/yoavram'),
-          ('FigShare', 'http://figshare.com/authors/Yoav_Ram/99206'),
-          ('OCRID', 'http://orcid.org/0000-0002-9653-4458')
+	 	  ('Github', 'http://github.com/yoavram')
+	 	  #('Linkedin', 'http://www.linkedin.com/in/yoavram'),
+          #('FigShare', 'http://figshare.com/authors/Yoav_Ram/99206'),
+          #('OCRID', 'http://orcid.org/0000-0002-9653-4458')
         )
 
 # Social widget
