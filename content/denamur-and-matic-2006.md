@@ -1,4 +1,4 @@
-Title: 'Summary: "Evolution of mutation rates in bacteria" (Denamur and Matic 2006)'
+Title: Summary: "Evolution of mutation rates in bacteria" (Denamur and Matic 2006)
 Date: 2013-07-14 14:16:00 +2
 Category: evolution
 

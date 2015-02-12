@@ -8,11 +8,11 @@ SITESUBTITLE = "Math, Science, Biology and the Mutation-Selection Balance"
 AUTHOR_BIO = "PhD Student in Tel-Aviv University.\nEvolution. Mathematics. Programming. Science. Lakers."
 
 
-SITEURL = 'http://blog.yoavram.com'
-ARTICLE_URL = 'posts/{slug}/'
-ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
-PAGE_URL = 'pages/{slug}.html'
-PAGE_SAVE_AS = 'pages/{slug}.html'
+SITEURL = ''
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 DRAFT_URL = 'drafts/{slug}.html'
 DRAFT_SAVE_AS = 'drafts/{slug}.html'
 CATEGORY_URL = 'category/{slug}.html'

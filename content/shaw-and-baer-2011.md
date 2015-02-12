@@ -1,4 +1,4 @@
-Title: 'Summary: "Fitness-dependent mutation rates in finite populations" (Shaw and Baer 2011)'
+Title: Summary: "Fitness-dependent mutation rates in finite populations" (Shaw and Baer 2011)
 Date: 2013-2-19 14:28:00 +2
 Category: evolution
 Status: draft

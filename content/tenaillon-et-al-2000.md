@@ -1,4 +1,4 @@
-Title: 'Summary: "Mutators and sex in bacteria: Conflict between adaptive strategies" (Tenaillon et al. 2000)'
+Title: Summary: "Mutators and sex in bacteria: Conflict between adaptive strategies" (Tenaillon et al. 2000)
 Date: 2013-1-14 09:51:00 +2
 Category: evolution
 

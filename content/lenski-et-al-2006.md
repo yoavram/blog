@@ -1,4 +1,4 @@
-Title: 'Summary: "Balancing robustness and evolvability" (Lenski et al. 2006)'
+Title: Summary: "Balancing robustness and evolvability" (Lenski et al. 2006)
 Date: 2013-06-16 12:46:00 +2
 Category: evolution
 
