@@ -1,0 +1,6 @@
+{
+  "name": "yoavram-blog",
+  "root": "output",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
