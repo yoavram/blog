@@ -26,16 +26,16 @@ DEFAULT_LANG = u'en'
 LOCALE = u'he_IL'
 
 GITHUB_URL = "https://github.com/yoavram/blog"
-#GOOGLE_ANALYTICS
+GOOGLE_ANALYTICS = "UA-3865698-10"
 #DISQUS_SITENAME
 TWITTER_USERNAME = "yoavram"
 # Feed generation is usually not desired when developing
-FEED_ALL_RSS = 'feeds/all.rss.xml'
-CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-FEED_DOMAIN = SITEURL
+#FEED_ALL_RSS = 'feeds/all.rss.xml'
+#CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+#TRANSLATION_FEED_ATOM = None
+#AUTHOR_FEED_ATOM = None
+#AUTHOR_FEED_RSS = None
+#FEED_DOMAIN = SITEURL
 
 # Blogroll
 LINKS = (#('Blog', '/'),
